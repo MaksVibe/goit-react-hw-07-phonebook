@@ -44,6 +44,7 @@ export const filterSlice = createSlice({
     filterContacts: (_, { payload }) => payload,
   },
 });
+
 export const { filterContacts } = filterSlice.actions;
 export const {
   useFetchTodosQuery,
